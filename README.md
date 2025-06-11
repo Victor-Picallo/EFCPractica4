@@ -1,5 +1,5 @@
 Refactoriza el siguiente código, usa polimorfismo y herencia
-
+```
 public class NotificadorApp {
     public static void main(String[] args) {
         Notificacion email = Notificacion.EMAIL;
@@ -53,9 +53,9 @@ enum Notificacion {
 }
 
 
-
+```
 Refactoriza el siguiente código, usa polimorfismo y herencia
-
+```
 public class ProcesadorPedidos {
 
     public static void procesarPedido(String cliente, String producto, int cantidad, double precioUnitario) {
@@ -93,9 +93,9 @@ public class ProcesadorPedidos {
 
 
 
-
+```
 Optimiza el siguiente código
-
+```
 public class Buscador {
 
     public static boolean contienePalabraClave(String texto) {
@@ -124,4 +124,4 @@ public class Buscador {
         System.out.println(contienePalabraClave("Este texto no contiene la palabra clave."));
     }
 }
-
+```
